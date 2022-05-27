@@ -1,0 +1,64 @@
+.draggable {
+  width: 10%;
+  max-height: 10%;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: blue;
+  color: white;
+  /* text-align: center; */
+  border-radius: 0.75em;
+  border-color: black;
+  border-style: solid;
+  touch-action: none;
+  user-select: none;
+  transform: translate(0px, 0px);
+  min-height: 65px;
+  font-size: 16px;
+  padding-left: 3px;
+  position: relative;
+  /* padding-top: 1%;
+  padding-bottom: 1%; */
+}
+.column {
+  width: 25%;
+  border: solid;
+  padding-bottom: 20%;
+}
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+}
+.realColumn {
+  position: absolute;
+  padding-left: 2%;
+  height: 500px;
+  width: 15%;
+  background: red;
+  margin: 5px;
+}
